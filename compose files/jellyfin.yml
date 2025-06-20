@@ -2,8 +2,8 @@
     image: jellyfin/jellyfin
     container_name: jellyfin
     volumes:
-      - /root/configs/jellyfin/config:/config
-      - /root/configs/jellyfin/cache:/cache
+      - /home/$SUDO_USER/app/configs/jellyfin/config:/config
+      - /home/$SUDO_USER/app/configs/jellyfin/cache:/cache
       - type: bind
         source: /root/configs/data/media/
         target: /data/media

@@ -5,7 +5,7 @@
       - /home/$SUDO_USER/app/configs/jellyfin/config:/config
       - /home/$SUDO_USER/app/configs/jellyfin/cache:/cache
       - type: bind
-        source: /root/configs/data/media/
+        source: /home/$SUDO_USER/app/configs/data/media/
         target: /data/media
         read_only: true
     restart: 'unless-stopped'

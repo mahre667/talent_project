@@ -1,0 +1,6 @@
+<?php
+
+trait ApiFunctions
+{
+	// Nothing
+}

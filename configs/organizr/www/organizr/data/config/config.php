@@ -1,12 +1,12 @@
 <?php
 return [
 	'configVersion' => '2.1.2490',
-	'dbLocation' => '/config/www/organizr/data/6XVxpUnuGb/',
+	'dbLocation' => '/config/www/organizr/data/x3wQnQ9tEl/',
 	'dbName' => 'organizrDB.db',
 	'driver' => 'sqlite3',
 	'license' => 'personal',
-	'organizrAPI' => 'gkzvlozj8vejg0rwq96e',
+	'organizrAPI' => '553809zv7b9qrhpp4xsi',
 	'organizrHash' => 'test..123',
 	'registrationPassword' => 'test..123',
-	'uuid' => '404d5c21-cf93-4889-9268-24f82187263e'
+	'uuid' => '518c84c4-befe-4624-9616-bf4c2669fcff'
 ];
